@@ -1,0 +1,111 @@
+/*
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*/
+
+html {
+    font-size: 20px;
+    background-color: rgb(241, 103, 103); 
+    /*url('./background.jpg') bottom center;
+    background-size: cover;*/
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+    position: relative;
+    min-height: 100vh;
+  }
+
+/*content-wrapper*/
+.content-wrapper {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+/*main*/
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.settings-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    /*gap: 16px;*/
+}
+
+#currentMode {
+    padding-bottom: 5px;
+}
+
+#currentColorMode {
+    padding: 40px;
+    background: black;
+    border: black 1px solid;
+    margin-bottom: 16px;
+}
+
+.button {
+    width: 160px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: black 1px solid;
+    margin-bottom: 16px;
+}
+
+#sizeValue {
+    margin-top: 16px;
+}
+
+#sizeSlider {
+    width: 158px;
+}
+
+.grid {
+    display: grid;
+    /*grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);*/
+    height: 480px;
+    width: 480px;
+    background-color: white;
+    border: gray 2px solid;
+    /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+}
+
+.settings-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    gap: 16px;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
